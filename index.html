@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <h1>Passer en mode dark/light</h1>
+
+    <h2>Sous titre</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Eaque quisquam tenetur inventore 
+        officia distinctio qui modi reprehenderit, 
+        corrupti aut accusantium perferendis tempora 
+        nam error eligendi! Nisi impedit non in aut!
+
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Eaque quisquam tenetur inventore 
+        officia distinctio qui modi reprehenderit, 
+        corrupti aut accusantium perferendis tempora 
+        nam error eligendi! Nisi impedit non in aut!
+    </p>
+
+    <h2>Sous titre</h2>
+
+    <p class="deuxieme">
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Eaque quisquam tenetur inventore 
+        officia distinctio qui modi reprehenderit, 
+        corrupti aut accusantium perferendis tempora 
+        nam error eligendi! Nisi impedit non in aut!
+
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Eaque quisquam tenetur inventore 
+        officia distinctio qui modi reprehenderit, 
+        corrupti aut accusantium perferendis tempora 
+        nam error eligendi! Nisi impedit non in aut!
+    </p>
+
+    <h2>Sous titre</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Eaque quisquam tenetur inventore 
+        officia distinctio qui modi reprehenderit, 
+        corrupti aut accusantium perferendis tempora 
+        nam error eligendi! Nisi impedit non in aut!
+
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Eaque quisquam tenetur inventore 
+        officia distinctio qui modi reprehenderit, 
+        corrupti aut accusantium perferendis tempora 
+        nam error eligendi! Nisi impedit non in aut!
+    </p>
+
+    <h2>Sous titre</h2>
+
+    <p class="dernier">
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Eaque quisquam tenetur inventore 
+        officia distinctio qui modi reprehenderit, 
+        corrupti aut accusantium perferendis tempora 
+        nam error eligendi! Nisi impedit non in aut!
+
+        Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. 
+        Eaque quisquam tenetur inventore 
+        officia distinctio qui modi reprehenderit, 
+        corrupti aut accusantium perferendis tempora 
+        nam error eligendi! Nisi impedit non in aut!
+    </p>
+
+ <script>//object, string, number
+   
+   var monTitre  = document.querySelector('h1');
+   var body = document.querySelector('body');
+
+   function test(){
+     
+     body.classList.toggle('mode-dark');
+
+   }
+
+   monTitre.addEventListener('click', test);
+
+ </script>  
+
+</body>
+</html>
